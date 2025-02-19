@@ -4,12 +4,12 @@ console.log(validatePassword("hello1234", "hello1234")); // returns false
 console.log(validatePassword("Hello1234", "Hello1234")); // returns true
 console.log(validatePassword("HELLO1234", "HELLO1234")); // returns false
 
-function validatePassword(pass, x) {
+function validatePassword(pass, pass2) {
   var Upper = false;
   var lower = false;
   var num = false;
 
-  if (pass == x && pass.length >= 8) {
+  if (pass == pass2 && pass.length >= 8) {
     for (var i = 0; i < pass.length; i++) {
       let char = pass[i];
       if (char >= "A" && char <= "Z") {
