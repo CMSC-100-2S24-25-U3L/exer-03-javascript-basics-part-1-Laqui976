@@ -1,1 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZdbdKFSR)
+Rochelle Laqui
+2022-06995
+
+https://github.com/CMSC-100-2S24-25-U3L/exer-02-html-and-css-Laqui976.git
+
+ValidatePassword()
+-compare if two string matches and if it has at least one number, lowercase, and uppercase.
+
+reversePass()
+- display string in reverse order
+
+storePass()
+- display name and if valid password store the reversePass as newPassword else the password stay the same.  
